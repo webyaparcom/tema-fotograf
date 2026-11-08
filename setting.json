@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Seans ve video; görseller temsilîdir.",
+    "en": "Sessions and video; images are representative.",
+    "ar": "جلسات وفيديو؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "fotoğraf, portre, stüdyo",
+    "en": "photo, portrait, studio",
+    "ar": "تصوير، بورتريه، استوديو"
+  },
+  "category": "Kurumsal",
+  "name": "Kare Fotoğraf",
+  "domain": "fotograf.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "cormorant-garamond",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#636978",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "5px",
+    "--mx-radius-md": "8px",
+    "--mx-radius-lg": "11px",
+    "--mx-radius-xl": "15px"
+  },
+  "icon": "icon.png"
+}
