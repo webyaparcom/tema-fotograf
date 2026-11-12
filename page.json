@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Röportajdan albüme; kareden galeriye.",
-        "en": "From talk to album; from frame to gallery.",
-        "ar": "من الحديث إلى اللبوم؛ من الكادر إلى المعرض."
+        "tr": "Portreden ürüne, davetten belgesele; çekim, seçki ve retuş tek elde.",
+        "en": "From portraits to products, events to documentary; shooting, selection and retouching in one hand.",
+        "ar": "من البورتريه إلى المنتجات، ومن المناسبات إلى الوثائقي؛ التصوير والاختيار والتحرير في مكان واحد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Seans ve video; görseller temsilîdir.",
-        "en": "Sessions and video; images are representative.",
-        "ar": "جلسات وفيديو؛ الصور تمثيلية."
+        "tr": "Fotoğraf stüdyosu; görseller temsilîdir.",
+        "en": "Photography studio; images are representative.",
+        "ar": "استوديو تصوير؛ الصور تمثيلية."
       }
     },
     {
