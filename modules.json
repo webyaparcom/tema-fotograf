@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Seans planla",
+          "en": "Plan a session",
+          "ar": "خطّط لجلسة"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Kare stüdyosu",
-          "en": "Frame studio",
-          "ar": "استوديو كادر"
+          "tr": "Fotoğraf stüdyosu",
+          "en": "Photography studio",
+          "ar": "استوديو تصوير"
         },
         "title": {
-          "tr": "Kare, net ve doğal",
-          "en": "Frame, sharp and natural",
-          "ar": "كادر حاد وطبيعي"
+          "tr": "Anı değil, kareyi çekiyoruz",
+          "en": "We shoot frames, not just moments",
+          "ar": "نصوّر الكادر لا اللحظة فقط"
         },
         "metin": {
-          "tr": "Kare Fotoğraf, seans ve video sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Kare offers sessions and video. Images are representative and text is fictional.",
-          "ar": "يقدم كادر جلسة وفيديو. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Portre, ürün, davet ve belgesel çekimleri; ışığı ve kadrajı sizinle birlikte kurarız. Görseller temsilîdir.",
+          "en": "Portrait, product, event and documentary shoots; we set up light and framing together with you. Images are representative.",
+          "ar": "جلسات بورتريه ومنتجات ومناسبات ووثائقية؛ نضبط الإضاءة والإطار معك. الصور تمثيلية."
         },
         "cta1": {
-          "tr": "Portföy",
-          "en": "Portfolio",
-          "ar": "معرض أعمال"
+          "tr": "Portföyü gör",
+          "en": "See the portfolio",
+          "ar": "شاهد الأعمال"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Seans iste",
-          "en": "Book a session",
-          "ar": "احجز جلسة"
+          "tr": "Seans planla",
+          "en": "Plan a session",
+          "ar": "خطّط لجلسة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne çekiyoruz?",
+          "tr": "Neleri çekiyoruz?",
           "en": "What do we shoot?",
-          "ar": "ماذا نصور؟"
+          "ar": "ماذا نصوّر؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1614,12 +1625,12 @@
       "data": [
         {
           "deger": 150,
-          "sonek": "",
+          "sonek": "+",
           "ikon": "photo_camera",
           "etiket": {
-            "tr": "Seans",
-            "en": "Sessions",
-            "ar": "جلسات"
+            "tr": "Çekim seansı",
+            "en": "Shoot sessions",
+            "ar": "جلسة تصوير"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1629,27 +1640,12 @@
         },
         {
           "deger": 40,
-          "sonek": "",
-          "ikon": "wedding",
+          "sonek": "+",
+          "ikon": "celebration",
           "etiket": {
-            "tr": "Davet",
-            "en": "Events",
-            "ar": "مناسبات"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 97,
-          "sonek": "%",
-          "ikon": "filter",
-          "etiket": {
-            "tr": "Retuş teslimi",
-            "en": "Retouch delivery",
-            "ar": "تسليم تلميع"
+            "tr": "Davet ve nişan",
+            "en": "Events & engagements",
+            "ar": "مناسبة وخطوبة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1660,11 +1656,26 @@
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "collections",
+          "ikon": "photo_album",
           "etiket": {
-            "tr": "Galeri",
-            "en": "Galleries",
-            "ar": "معارض"
+            "tr": "Hazırlanan albüm",
+            "en": "Albums made",
+            "ar": "ألبوم مُنجَز"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 3,
+          "sonek": "",
+          "ikon": "groups",
+          "etiket": {
+            "tr": "Fotoğrafçı",
+            "en": "Photographers",
+            "ar": "مصورون"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Fotoğraf & Kare",
-          "en": "Photography & Frame",
-          "ar": "تصوير وكادر"
+          "tr": "Çekim türleri",
+          "en": "Types of shoot",
+          "ar": "أنواع التصوير"
         },
         "title": {
-          "tr": "Ne çekiyoruz?",
+          "tr": "Neleri çekiyoruz?",
           "en": "What do we shoot?",
-          "ar": "ماذا نصور؟"
+          "ar": "ماذا نصوّر؟"
         },
         "description": {
-          "tr": "Röportajdan albüme; kareden galeriye.",
-          "en": "From talk to album; from frame to gallery.",
-          "ar": "من الحديث إلى اللبوم؛ من الكادر إلى المعرض."
+          "tr": "Portreden ürüne, davetten belgesele; çekim, seçki ve retuş tek elde.",
+          "en": "From portraits to products, events to documentary; shooting, selection and retouching in one hand.",
+          "ar": "من البورتريه إلى المنتجات، ومن المناسبات إلى الوثائقي؛ التصوير والاختيار والتحرير في مكان واحد."
         }
       },
       "data": [
         {
-          "icon": "photo_camera",
+          "icon": "portrait",
           "name": {
             "tr": "Portre seansı",
             "en": "Portrait session",
             "ar": "جلسة بورتريه"
           },
           "description": {
-            "tr": "Stüdyo ve dış çekim.",
-            "en": "Studio and outdoor shoot.",
-            "ar": "تصوير استوديو وخارجي."
+            "tr": "Stüdyoda ya da dış mekânda doğal ışıkla portre.",
+            "en": "Portraits in the studio or outdoors with natural light.",
+            "ar": "بورتريه في الاستوديو أو في الخارج بالضوء الطبيعي."
           }
         },
         {
-          "icon": "wedding",
+          "icon": "photo_camera",
           "name": {
-            "tr": "Davet fotoğrafları",
-            "en": "Event photos",
-            "ar": "صور مناسبة"
+            "tr": "Ürün ve mekân çekimi",
+            "en": "Product & interior shoots",
+            "ar": "تصوير المنتجات والأماكن"
           },
           "description": {
-            "tr": "Davet ve nişan kareleri.",
-            "en": "Event and engagement frames.",
-            "ar": "كادر مناسبة وخطوبة."
+            "tr": "Katalog, e-ticaret ve işletme tanıtımı için net kareler.",
+            "en": "Clean frames for catalogues, online shops and business promotion.",
+            "ar": "لقطات نظيفة للكتالوجات والمتاجر الإلكترونية وتعريف الأعمال."
           }
         },
         {
-          "icon": "videocam",
+          "icon": "engineering",
           "name": {
-            "tr": "Kısa video",
-            "en": "Short video",
-            "ar": "فيديو قصير"
+            "tr": "Esnaf ve atölye portreleri",
+            "en": "Craft & workshop portraits",
+            "ar": "بورتريه الحرفيين والورش"
           },
           "description": {
-            "tr": "Rehber ve kısa tanıtım.",
-            "en": "Guide and short promo.",
-            "ar": "دعاية وبيان قصير."
+            "tr": "Usta ve üretim ortamını anlatan belgesel kareler.",
+            "en": "Documentary frames telling the story of the maker and workshop.",
+            "ar": "لقطات وثائقية تروي قصة الحرفي وورشته."
           }
         },
         {
-          "icon": "filter",
+          "icon": "celebration",
+          "name": {
+            "tr": "Davet ve nişan",
+            "en": "Events & engagements",
+            "ar": "المناسبات والخطوبة"
+          },
+          "description": {
+            "tr": "Nişan, kına ve aile davetlerinde doğal kareler.",
+            "en": "Natural shots at engagements, henna nights and family gatherings.",
+            "ar": "لقطات طبيعية في حفلات الخطوبة والحناء والمناسبات العائلية."
+          }
+        },
+        {
+          "icon": "auto_fix_high",
           "name": {
             "tr": "Retuş ve baskı",
-            "en": "Retouch and print",
-            "ar": "تلميع وطباعة"
+            "en": "Retouching & print",
+            "ar": "التحرير والطباعة"
           },
           "description": {
-            "tr": "Renk ve net retuş (demo).",
-            "en": "Color and sharp retouch (demo).",
-            "ar": "تلميع لون ووضوح (تجريبي)."
+            "tr": "Renk ve ton düzeni; isteğe bağlı baskı.",
+            "en": "Colour and tone grading; optional prints.",
+            "ar": "ضبط الألوان والدرجات مع طباعة اختيارية."
           }
         },
         {
-          "icon": "collections",
+          "icon": "photo_album",
           "name": {
-            "tr": "Galeri ve albüm",
-            "en": "Gallery and album",
-            "ar": "معرض ولبوم"
+            "tr": "Albüm ve dijital galeri",
+            "en": "Albums & digital gallery",
+            "ar": "ألبوم ومعرض رقمي"
           },
           "description": {
-            "tr": "Dijital galeri ve albüm.",
-            "en": "Digital gallery and album.",
-            "ar": "معرض رقمي ولبوم."
-          }
-        },
-        {
-          "icon": "groups",
-          "name": {
-            "tr": "Aile kareleri",
-            "en": "Family frames",
-            "ar": "كادر عائلة"
-          },
-          "description": {
-            "tr": "Aile ve çocuk seansı.",
-            "en": "Family and child session.",
-            "ar": "جلسة عائلة وطفل."
+            "tr": "Seçilmiş kareler albümde ve çevrimiçi galeride.",
+            "en": "Selected frames in an album and an online gallery.",
+            "ar": "اللقطات المختارة في ألبوم ومعرض على الإنترنت."
           }
         }
       ],
@@ -1819,14 +1830,14 @@
           "ar": "كيف نعمل؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda galeriye",
+          "en": "Four steps to your gallery",
+          "ar": "أربع خطوات حتى معرضك"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Ön görüşmeden galeri teslimine.",
+          "en": "From the first chat to gallery delivery.",
+          "ar": "من اللقاء الأولي إلى تسليم المعرض."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Röportaj",
-            "en": "Talk",
-            "ar": "حديث"
+            "tr": "Ön görüşme",
+            "en": "First chat",
+            "ar": "لقاء أولي"
           },
           "text": {
-            "tr": "Konu ve kare planı.",
-            "en": "Subject and frame plan.",
-            "ar": "خطة موضوع وكادر."
+            "tr": "Amaç, mekân ve tarihi birlikte belirleriz.",
+            "en": "We agree on purpose, location and date.",
+            "ar": "نحدد الهدف والمكان والموعد معًا."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Çekim",
-            "en": "Shoot",
-            "ar": "التصوير"
+            "tr": "Çekim günü",
+            "en": "Shoot day",
+            "ar": "يوم التصوير"
           },
           "text": {
-            "tr": "Stüdyo veya dış kare.",
-            "en": "Studio or outdoor frame.",
-            "ar": "كادر استوديو أو خارجي."
+            "tr": "Stüdyo ya da dış mekânda planlı çekim.",
+            "en": "A planned shoot in the studio or on location.",
+            "ar": "تصوير مخطط له في الاستوديو أو في الموقع."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Retuş",
-            "en": "Retouch",
-            "ar": "التلميع"
+            "tr": "Seçki ve retuş",
+            "en": "Selection & retouch",
+            "ar": "الاختيار والتحرير"
           },
           "text": {
-            "tr": "Renk ve net işlemi.",
-            "en": "Color and sharp work.",
-            "ar": "عمل لون ووضوح."
+            "tr": "Kareleri birlikte seçer, renk ve tonu düzeltiriz.",
+            "en": "We choose frames together and finish colour and tone.",
+            "ar": "نختار اللقطات معًا ونضبط اللون والدرجة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Galeri",
-            "en": "Gallery",
-            "ar": "المعرض"
+            "tr": "Galeri teslimi",
+            "en": "Gallery delivery",
+            "ar": "تسليم المعرض"
           },
           "text": {
-            "tr": "Seçilmiş kare teslimi.",
-            "en": "Selected frame delivery.",
-            "ar": "تسليم كادر مختار."
+            "tr": "Dijital galeri ve isteğe bağlı albüm.",
+            "en": "A digital gallery and an optional album.",
+            "ar": "معرض رقمي وألبوم اختياري."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Stüdyo ekibi",
+          "en": "The studio team",
+          "ar": "فريق الاستوديو"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Kadrajın arkasındakiler",
+          "en": "The people behind the lens",
+          "ar": "من خلف العدسة"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1934,40 +1945,40 @@
           "role": {
             "tr": "Fotoğrafçı",
             "en": "Photographer",
-            "ar": "مصور"
+            "ar": "مصورة"
           },
           "bio": {
-            "tr": "9 yıl portre.",
-            "en": "9 years of portrait.",
-            "ar": "٩ سنوات في البورتريه."
+            "tr": "Portre ve belgesel çekimde 9 yıl.",
+            "en": "9 years in portrait and documentary photography.",
+            "ar": "9 سنوات في البورتريه والتصوير الوثائقي."
           },
           "img": ""
         },
         {
           "name": "Cem D.",
           "role": {
-            "tr": "Retuş",
-            "en": "Retoucher",
-            "ar": "تلميع"
+            "tr": "Retuş uzmanı",
+            "en": "Retouch specialist",
+            "ar": "أخصائي تحرير الصور"
           },
           "bio": {
-            "tr": "6 yıl renk.",
-            "en": "6 years of color.",
-            "ar": "٦ سنوات في اللون."
+            "tr": "Renk düzeni ve baskı hazırlığında 6 yıl.",
+            "en": "6 years in colour grading and print preparation.",
+            "ar": "6 سنوات في ضبط الألوان وتجهيز الطباعة."
           },
           "img": ""
         },
         {
           "name": "Aylin K.",
           "role": {
-            "tr": "Video",
-            "en": "Videographer",
-            "ar": "فيديو"
+            "tr": "Video ve ışık",
+            "en": "Video & lighting",
+            "ar": "فيديو وإضاءة"
           },
           "bio": {
-            "tr": "4 yıl kayıt.",
-            "en": "4 years of recording.",
-            "ar": "٤ سنوات في التسجيل."
+            "tr": "Kısa tanıtım filmi ve ışık kurulumunda 4 yıl.",
+            "en": "4 years in short promo films and lighting set-ups.",
+            "ar": "4 سنوات في الأفلام الترويجية القصيرة وإعداد الإضاءة."
           },
           "img": ""
         }
@@ -1998,13 +2009,13 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
+          "tr": "Çekim yaptıranlar ne diyor?",
+          "en": "What our clients say",
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
@@ -2021,14 +2032,14 @@
           "role": {
             "tr": "Çift",
             "en": "Couple",
-            "ar": "زوجين"
+            "ar": "زوجان"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kareler net; albüm zarif.",
-            "en": "Frames are sharp; album is elegant.",
-            "ar": "الكوادر حادة؛ اللبوم أنيق."
+            "tr": "Kareler doğal çıktı; albüm çok zarif.",
+            "en": "The frames look natural and the album is elegant.",
+            "ar": "جاءت اللقطات طبيعية والألبوم أنيق جدًا."
           }
         },
         {
@@ -2036,29 +2047,29 @@
           "role": {
             "tr": "Aile",
             "en": "Family",
-            "ar": "أسرة"
+            "ar": "عائلة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Retuş doğal ve sakin.",
-            "en": "Retouch is natural and calm.",
-            "ar": "التلميع طبيعي وهادئ."
+            "tr": "Çocuklarla rahat bir seans oldu; retuş sakin ve doğal.",
+            "en": "A relaxed session with the kids; the retouching is calm and natural.",
+            "ar": "كانت جلسة مريحة مع الأطفال والتحرير هادئ وطبيعي."
           }
         },
         {
           "name": "K. Şentürk",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Atölye sahibi",
+            "en": "Workshop owner",
+            "ar": "صاحب ورشة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Galeri zamanında açıldı.",
-            "en": "Gallery opened on time.",
-            "ar": "فُتح المعرض في الوقت."
+            "tr": "Ürün kareleri zamanında teslim edildi.",
+            "en": "The product shots were delivered on time.",
+            "ar": "سُلّمت لقطات المنتجات في موعدها."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "8px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Portföyden",
+          "en": "From the portfolio",
+          "ar": "من الأعمال"
         },
         "title": {
-          "tr": "Ne çekiyoruz?",
+          "tr": "Neleri çekiyoruz?",
           "en": "What do we shoot?",
-          "ar": "ماذا نصور؟"
+          "ar": "ماذا نصوّر؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2131,28 +2142,9 @@
             "ar": "جلسة بورتريه"
           },
           "metin": {
-            "tr": "Stüdyo ve dış çekim.",
-            "en": "Studio and outdoor shoot.",
-            "ar": "تصوير استوديو وخارجي."
-          },
-          "img": "portfolyo-galeri-5.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Davet fotoğrafları",
-            "en": "Event photos",
-            "ar": "صور مناسبة"
-          },
-          "metin": {
-            "tr": "Davet ve nişan kareleri.",
-            "en": "Event and engagement frames.",
-            "ar": "كادر مناسبة وخطوبة."
+            "tr": "Stüdyoda ya da dış mekânda doğal ışıkla portre.",
+            "en": "Portraits in the studio or outdoors with natural light.",
+            "ar": "بورتريه في الاستوديو أو في الخارج بالضوء الطبيعي."
           },
           "img": "portfolyo-galeri-9.webp",
           "alt": {
@@ -2164,16 +2156,35 @@
         },
         {
           "baslik": {
-            "tr": "Kısa video",
-            "en": "Short video",
-            "ar": "فيديو قصير"
+            "tr": "Ürün ve mekân çekimi",
+            "en": "Product & interior shoots",
+            "ar": "تصوير المنتجات والأماكن"
           },
           "metin": {
-            "tr": "Rehber ve kısa tanıtım.",
-            "en": "Guide and short promo.",
-            "ar": "دعاية وبيان قصير."
+            "tr": "Katalog, e-ticaret ve işletme tanıtımı için net kareler.",
+            "en": "Clean frames for catalogues, online shops and business promotion.",
+            "ar": "لقطات نظيفة للكتالوجات والمتاجر الإلكترونية وتعريف الأعمال."
           },
-          "img": "portfolyo-galeri-12.webp",
+          "img": "portfolyo-galeri-4.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Esnaf ve atölye portreleri",
+            "en": "Craft & workshop portraits",
+            "ar": "بورتريه الحرفيين والورش"
+          },
+          "metin": {
+            "tr": "Usta ve üretim ortamını anlatan belgesel kareler.",
+            "en": "Documentary frames telling the story of the maker and workshop.",
+            "ar": "لقطات وثائقية تروي قصة الحرفي وورشته."
+          },
+          "img": "portfolyo-galeri-6.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "8px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çekim yaptığımız yerler",
+          "en": "Places we have shot for",
+          "ar": "جهات صوّرنا لها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أنشطة افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,19 +2257,19 @@
       },
       "data": [
         {
-          "name": "Demo Portre"
+          "name": "Demo Atölye"
         },
         {
-          "name": "Demo Davet"
+          "name": "Demo Butik"
         },
         {
-          "name": "Demo Aile"
+          "name": "Demo Kafe"
         },
         {
-          "name": "Demo Video"
+          "name": "Demo Düğün Salonu"
         },
         {
-          "name": "Demo Albüm"
+          "name": "Demo Dergi"
         },
         {
           "name": "Demo Galeri"
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
-          "soru": {
-            "tr": "Seans kaç kadre içerir?",
+          "question": {
+            "tr": "Bir seans kaç kare içerir?",
             "en": "How many frames does a session include?",
-            "ar": "كم عدد الكوادر في الجلسة؟"
+            "ar": "كم لقطة تشمل الجلسة؟"
           },
-          "cevap": {
-            "tr": "Konu ve süreye göre değişir; demo metin değil.",
-            "en": "It varies by subject and duration; not a demo text.",
-            "ar": "تتغير حسب الموضوع والمدة؛ غير نص تجريبي."
-          }
-        },
-        {
+          "answer": {
+            "tr": "Çekimin türüne ve süresine göre değişir; seçilen kareler retuşlu teslim edilir.",
+            "en": "It depends on the type and length of the shoot; selected frames are delivered retouched.",
+            "ar": "يختلف حسب نوع الجلسة ومدتها، وتُسلَّم اللقطات المختارة بعد التحرير."
+          },
           "soru": {
-            "tr": "Baskı dahil mi?",
-            "en": "Is printing included?",
-            "ar": "هل الطباعة مشمولة؟"
+            "tr": "Bir seans kaç kare içerir?",
+            "en": "How many frames does a session include?",
+            "ar": "كم لقطة تشمل الجلسة؟"
           },
           "cevap": {
-            "tr": "Albüm paketine göre değişir; demo metindir.",
-            "en": "It varies by album package; this is a demo text.",
-            "ar": "تتغير حسب حزمة اللبوم؛ هذا نص تجريبي."
+            "tr": "Çekimin türüne ve süresine göre değişir; seçilen kareler retuşlu teslim edilir.",
+            "en": "It depends on the type and length of the shoot; selected frames are delivered retouched.",
+            "ar": "يختلف حسب نوع الجلسة ومدتها، وتُسلَّم اللقطات المختارة بعد التحرير."
           }
         },
         {
+          "question": {
+            "tr": "Baskı ve albüm fiyata dahil mi?",
+            "en": "Are prints and albums included?",
+            "ar": "هل الطباعة والألبوم مشمولان بالسعر؟"
+          },
+          "answer": {
+            "tr": "Hayır; paketten bağımsız seçilir, albüm boyutuna göre fiyatlandırılır.",
+            "en": "No; they are chosen separately and priced by album size.",
+            "ar": "لا، يُختاران بشكل منفصل ويُسعَّران حسب حجم الألبوم."
+          },
+          "soru": {
+            "tr": "Baskı ve albüm fiyata dahil mi?",
+            "en": "Are prints and albums included?",
+            "ar": "هل الطباعة والألبوم مشمولان بالسعر؟"
+          },
+          "cevap": {
+            "tr": "Hayır; paketten bağımsız seçilir, albüm boyutuna göre fiyatlandırılır.",
+            "en": "No; they are chosen separately and priced by album size.",
+            "ar": "لا، يُختاران بشكل منفصل ويُسعَّران حسب حجم الألبوم."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Çekim türüne, süreye ve teslim edilecek kare sayısına göre teklif hazırlanır.",
+            "en": "A quote is prepared based on the type and length of the shoot and the number of frames.",
+            "ar": "يُعدّ عرض السعر حسب نوع الجلسة ومدتها وعدد اللقطات."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Çekim türüne, süreye ve teslim edilecek kare sayısına göre teklif hazırlanır.",
+            "en": "A quote is prepared based on the type and length of the shoot and the number of frames.",
+            "ar": "يُعدّ عرض السعر حسب نوع الجلسة ومدتها وعدد اللقطات."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "8px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Seans isteyin",
+          "en": "Request a session",
+          "ar": "اطلب جلسة"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,22 +2472,22 @@
           "ar": "Kare Fotoğraf"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "address": {
           "tr": "Kare Sokak No: 13, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "13 Kare Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع كادر رقم 13، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع كادر رقم 13، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 02",
         "whatsapp": "903420200102",
         "email": "kare@karefoto.example",
         "hours": {
-          "tr": "Pzt–Cum 10:00 – 19:00",
-          "en": "Mon–Wed 10:00 – 19:00",
-          "ar": "الاثنين–الأربعاء 10:00 – 19:00"
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Seans formu",
+          "en": "Session form",
+          "ar": "نموذج الجلسة"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Portre seansı",
+              "en": "Portrait session",
+              "ar": "جلسة بورتريه"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Ürün veya mekân çekimi",
+              "en": "Product or interior shoot",
+              "ar": "تصوير منتجات أو أماكن"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Davet ve nişan",
+              "en": "Event or engagement",
+              "ar": "مناسبة أو خطوبة"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Kare Fotoğraf"
         },
         "description": {
-          "tr": "Kare Fotoğraf, seans ve video sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Kare offers sessions and video. Images are representative and text is fictional.",
-          "ar": "يقدم كادر جلسة وفيديو. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Kare Fotoğraf; portre, ürün, davet ve belgesel çekimleri yapan küçük bir fotoğraf stüdyosudur. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Kare Fotoğraf is a small photography studio for portrait, product, event and documentary shoots. Images are representative; the text is fictional.",
+          "ar": "كادر استوديو تصوير صغير لجلسات البورتريه والمنتجات والمناسبات والوثائقي. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Çekim köşesi",
-          "en": "Shoot corner",
-          "ar": "ركن التصوير"
+          "tr": "Işık köşesi",
+          "en": "Light corner",
+          "ar": "ركن الإضاءة"
         },
         "spot2": {
-          "tr": "Portre ve ışık aynı köşede.",
-          "en": "Portrait and light in the same corner.",
-          "ar": "البورتريه والنور في نفس الركن."
+          "tr": "Portre ve ürün için doğal ışıklı çekim köşesi.",
+          "en": "A naturally lit corner for portraits and products.",
+          "ar": "ركن تصوير بإضاءة طبيعية للبورتريه والمنتجات."
         },
-        "icon2": "verified",
+        "icon2": "light_mode",
         "name3": {
-          "tr": "Kare defteri",
-          "en": "Frame book",
-          "ar": "دفتر الكوادر"
+          "tr": "Kare arşivi",
+          "en": "Frame archive",
+          "ar": "أرشيف اللقطات"
         },
         "spot3": {
-          "tr": "Her seans için kare kaydı.",
-          "en": "A frame record for each session.",
-          "ar": "سجل كادر لكل جلسة."
+          "tr": "Her seansın seçilmiş kareleri arşivde saklanır.",
+          "en": "The selected frames of every session are kept in the archive.",
+          "ar": "تُحفظ اللقطات المختارة من كل جلسة في الأرشيف."
         },
-        "icon3": "schedule",
+        "icon3": "photo_library",
         "img": "portfolyo-galeri-3.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2729,9 +2781,9 @@
           "ar": "تواصل معنا"
         },
         "description": {
-          "tr": "Pzt–Cum 10:00 – 19:00",
-          "en": "Mon–Wed 10:00 – 19:00",
-          "ar": "الاثنين–الأربعاء 10:00 – 19:00"
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
         },
         "phone": "+90 342 020 01 02",
         "whatsapp": "903420200102",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Kare Sokak No: 13, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "13 Kare Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع كادر رقم 13، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع كادر رقم 13، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "8px",
         "title": {
-          "tr": "Kareye gir",
-          "en": "Step into the frame",
-          "ar": "ادخل الكادر"
+          "tr": "Karenizi birlikte kuralım",
+          "en": "Let us frame it together",
+          "ar": "لنُكوّن الكادر معًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Seans için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form for a session; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج لحجز جلسة؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Seans planla",
+          "en": "Plan a session",
+          "ar": "خطّط لجلسة"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Çekim türlerini gör",
+          "en": "See shoot types",
+          "ar": "شاهد أنواع التصوير"
         },
         "btn2Url": "hizmetler",
         "number": "903420200102",
@@ -2881,9 +2933,9 @@
           "ar": "راسلنا عبر واتساب"
         },
         "hours": {
-          "tr": "Pzt–Cum 10:00 – 19:00",
-          "en": "Mon–Wed 10:00 – 19:00",
-          "ar": "الاثنين–الأربعاء 10:00 – 19:00"
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Kare Sokak No: 13, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "13 Kare Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع كادر رقم 13، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع كادر رقم 13، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 02",
         "email": "kare@karefoto.example",

@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Röportajdan albüme; kareden galeriye.",
-    "en": "From talk to album; from frame to gallery.",
-    "ar": "من الحديث إلى اللبوم؛ من الكادر إلى المعرض."
+    "tr": "Portreden ürüne, davetten belgesele; çekim, seçki ve retuş tek elde.",
+    "en": "From portraits to products, events to documentary; shooting, selection and retouching in one hand.",
+    "ar": "من البورتريه إلى المنتجات، ومن المناسبات إلى الوثائقي؛ التصوير والاختيار والتحرير في مكان واحد."
   },
   "keyword": {
-    "tr": "Fotoğraf & Kare",
-    "en": "Photography & Frame",
-    "ar": "تصوير وكادر"
+    "tr": "Çekim türleri",
+    "en": "Types of shoot",
+    "ar": "أنواع التصوير"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:33.856Z",
-  "update": "2026-11-05T23:44:33.186Z"
+  "update": "2026-11-12T07:35:46.529Z"
 }

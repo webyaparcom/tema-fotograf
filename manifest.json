@@ -1,7 +1,7 @@
 {
   "name": "Kare Fotoğraf",
   "short_name": "Kare Fotoğra",
-  "description": "Seans ve video; görseller temsilîdir.",
+  "description": "Portre, ürün, davet ve belgesel fotoğraf stüdyosu; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

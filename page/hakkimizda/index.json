@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Seans ve video; görseller temsilîdir.",
-    "en": "Sessions and video; images are representative.",
-    "ar": "جلسات وفيديو؛ الصور تمثيلية."
+    "tr": "Fotoğraf stüdyosu; görseller temsilîdir.",
+    "en": "Photography studio; images are representative.",
+    "ar": "استوديو تصوير؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:33.189Z",
+  "update": "2026-11-12T07:35:46.533Z",
   "date": "2026-10-30"
 }

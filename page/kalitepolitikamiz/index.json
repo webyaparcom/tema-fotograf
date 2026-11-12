@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Seans ve retuş kaydı kontrolü.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Session and retouch record control.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تحقق سجل الجلسة والتلميع.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Çekim öncesi plan, çekimde ışık ve kadraj kontrolü, teslimde renk tutarlılığı ve kişisel verilerin korunması esastır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>A plan before the shoot, control of light and framing during it, colour consistency at delivery and protection of personal data are essential.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>التخطيط قبل التصوير، والتحكم بالإضاءة والإطار أثناءه، وثبات الألوان عند التسليم، وحماية البيانات الشخصية أساسيات لدينا.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:20.795Z",
-  "update": "2026-11-05T23:44:33.209Z",
+  "update": "2026-11-12T07:35:46.555Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

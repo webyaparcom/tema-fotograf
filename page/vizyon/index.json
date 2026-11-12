@@ -27,9 +27,9 @@
   "index": 1,
   "url": "",
   "text": {
-    "tr": "<h2>Vizyonumuz</h2>\n<p>Bölgenin fotoğraf noktası olmak (kurgusal hedef).</p>",
-    "en": "<h2>Our vision</h2>\n<p>To be the photography point of the region (fictional target).</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون نقطة التصوير في المنطقة (هدف افتراضي).</p>"
+    "tr": "<h2>Vizyonumuz</h2>\n<p>Bölgenin güvenilir portre ve belgesel fotoğraf stüdyosu olmak.</p>",
+    "en": "<h2>Our vision</h2>\n<p>To become the region’s trusted portrait and documentary photography studio.</p>",
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون استوديو البورتريه والتصوير الوثائقي الموثوق في المنطقة.</p>"
   },
   "title": {
     "tr": "Vizyon",
@@ -37,7 +37,7 @@
     "ar": "الرؤية"
   },
   "date": "2026-11-05T18:57:20.795Z",
-  "update": "2026-11-05T23:44:33.209Z",
+  "update": "2026-11-12T07:35:46.554Z",
   "sablonIzi": "c3ebee5f049bdfb4",
   "sablonIziDil": {
     "en": "67bb554c6c4d5984",

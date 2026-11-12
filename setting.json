@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Seans ve video; görseller temsilîdir.",
-    "en": "Sessions and video; images are representative.",
-    "ar": "جلسات وفيديو؛ الصور تمثيلية."
+    "tr": "Portre, ürün, davet ve belgesel fotoğraf stüdyosu; görseller temsilîdir.",
+    "en": "Portrait, product, event and documentary photography studio; images are representative.",
+    "ar": "استوديو تصوير بورتريه ومنتجات ومناسبات ووثائقي؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "fotoğraf, portre, stüdyo",
-    "en": "photo, portrait, studio",
-    "ar": "تصوير، بورتريه، استوديو"
+    "tr": "fotoğrafçı, portre, ürün çekimi, davet fotoğrafı, stüdyo",
+    "en": "photographer, portrait, product shoot, event photography, studio",
+    "ar": "مصور، بورتريه، تصوير منتجات، تصوير مناسبات، استوديو"
   },
   "category": "Kurumsal",
   "name": "Kare Fotoğraf",
